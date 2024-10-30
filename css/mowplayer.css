@@ -1,0 +1,23 @@
+/*css style sheets*/
+
+#settings-options .col-md-12 {
+    padding: 10px 0;
+}
+
+#settings-options input[type="submit"] {
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    background: rgb(246,73,91);
+    background: linear-gradient(180deg, rgba(246,73,91,1) 0%,
+    rgba(235,72,99,1) 35%,
+    rgba(217,73,111,1) 60%,
+    rgba(199,75,124,1) 77%,
+    rgba(183,78,138,1) 93%,
+    rgba(170,81,148,1) 100%);
+}
+
+#settings-options label {
+    font-weight: 600;
+}

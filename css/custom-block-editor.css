@@ -1,0 +1,73 @@
+/*CSS FOR MOWPLAYER BLOCK*/
+
+form#mow-form-insert-url {
+    margin: auto;
+    text-align: center;
+}
+
+.hide-element {
+    display: none;
+}
+
+form#mow-form-insert-url {
+    width: 100%;
+}
+/*
+.components-placeholder.wp-block-embed.is-large {
+    padding: 16px;
+}
+
+.components-placeholder__instructions {
+    text-align: left;
+    width: 100%;
+}
+
+.components-placeholder__label {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-weight: 600;
+    margin-bottom: 1em;
+    text-align: left;
+    width: 100%;
+}
+*/
+.components-placeholder__fieldset, .components-placeholder__fieldset form {
+    max-width: 100% !Important;
+}
+
+.components-button {
+    display: inline-flex;
+    font-size: 13px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    height: 36px;
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(85, 93, 102);
+    text-decoration: none;
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    background: none;
+    transition: box-shadow 0.1s linear;
+    padding: 0px 8px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.components-button.is-secondary {
+    white-space: nowrap;
+    color: rgb(0, 117, 175);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 117, 175);
+    border-image: initial;
+    background: rgb(243, 245, 246);
+}
+
+input.components-button.is-secondary.hide-element {
+    display: none;
+}
